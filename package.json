@@ -28,8 +28,7 @@
       "dist/**/*",
       "main.js",
       "preload.cjs",
-      "package.json",
-      "public/icon.png"
+      "package.json"
     ],
     "win": {
       "target": [
