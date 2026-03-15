@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded Background -->
+  <rect width="512" height="512" rx="128" fill="#5865F2"/>
+  
+  <!-- Status Bubble / Game Controller Shape -->
+  <path d="M128 192C128 156.654 156.654 128 192 128H320C355.346 128 384 156.654 384 192V320C384 355.346 355.346 384 320 384H192C156.654 384 128 355.346 128 320V192Z" fill="white" fill-opacity="0.1"/>
+  
+  <!-- Minimalist Edit Icon (Pencil/Slider style) -->
+  <rect x="236" y="160" width="40" height="192" rx="20" fill="white"/>
+  <rect x="160" y="236" width="192" height="40" rx="20" fill="white"/>
+  
+  <!-- Status Dot -->
+  <circle cx="384" cy="384" r="48" fill="#3BA55D" stroke="#5865F2" stroke-width="16"/>
+</svg>

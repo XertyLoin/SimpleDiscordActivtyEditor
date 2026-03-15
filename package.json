@@ -28,17 +28,20 @@
       "dist/**/*",
       "main.js",
       "preload.cjs",
-      "package.json"
+      "package.json",
+      "public/icon.svg"
     ],
     "win": {
       "target": [
         "nsis",
         "portable"
-      ]
+      ],
+      "icon": "public/icon.svg"
     },
     "linux": {
       "target": "AppImage",
-      "category": "Development"
+      "category": "Development",
+      "icon": "public/icon.svg"
     },
     "nsis": {
       "oneClick": false,

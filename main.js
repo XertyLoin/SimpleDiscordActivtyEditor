@@ -22,7 +22,7 @@ function createWindow() {
       contextIsolation: true,
       webSecurity: false,
     },
-    backgroundColor: '#0f172a',
+    icon: path.join(__dirname, 'public/icon.svg'),
     titleBarStyle: 'hiddenInset',
   });
 
