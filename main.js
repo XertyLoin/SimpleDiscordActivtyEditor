@@ -38,8 +38,10 @@ function createWindow() {
 
   if (isDev) {
     mainWindow.loadURL('http://localhost:5173');
+    // DevTools only in dev
     mainWindow.webContents.openDevTools(); 
   } else {
+    // Relative path to dist/index.html
     mainWindow.loadFile(path.join(__dirname, 'dist/index.html'));
   }
 }
