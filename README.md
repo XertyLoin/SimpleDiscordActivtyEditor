@@ -1,65 +1,63 @@
 # 🎮 Discord Activity Editor
 
-Un éditeur de Rich Presence pour Discord, moderne et élégant, construit avec Electron et React. Personnalisez votre statut Discord avec style !
+A modern and sleek Discord Rich Presence editor built with Electron and React. Customize your Discord status with style!
 
-![App Icon](public/icon.png)
+## ✨ Features
 
-## ✨ Fonctionnalités
-
-- **💎 Interface Premium** : Design moderne avec effets de flou (Glassmorphism) et animations fluides.
-- **⚡ RPC 2.0** : Mise à jour instantanée de votre statut. Changez vos textes et images sans redémarrer.
-- **🛠️ Tous types d'activités** : Support complet pour "Joue à", "Écoute", "Regarde", "Stream" et "En compétition".
-- **🎥 Support Streaming** : Ajoutez vos liens Twitch ou YouTube pour afficher l'icône de stream violette.
-- **📚 Bibliothèque de Layouts** : Sauvegardez vos configurations avec des noms personnalisés pour les retrouver plus tard.
-- **🔔 Système de Notifications** : Notifications intégrées élégantes (Toasts) pour confirmer vos actions.
-- **🚀 Auto-Update** : L'application vérifie automatiquement les nouvelles versions au démarrage.
+- **💎 Premium Interface**: Modern design with Glassmorphism effects and smooth animations.
+- **⚡ RPC 2.0**: Instant status updates. Change your text and images without restarting.
+- **🛠️ All Activity Types**: Full support for "Playing", "Listening", "Watching", "Streaming", and "Competing".
+- **🎥 Streaming Support**: Add your Twitch or YouTube links to display the purple streaming icon.
+- **📚 Layout Library**: Save your configurations with custom names to find them easily later.
+- **🔔 Notification System**: Elegant built-in notifications (Toasts) to confirm your actions.
+- **🚀 Auto-Update**: The application automatically checks for new versions on startup.
 
 ## 📥 Installation
 
 ### 🪟 Windows
-1. Téléchargez le fichier `.exe` (Installer ou Portable) depuis l'onglet **Releases**.
-2. Lancez l'installateur pour une installation complète ou utilisez la version portable pour un usage immédiat.
+1. Download the `.exe` file (Installer or Portable) from the **Releases** tab.
+2. Run the installer for a full installation or use the portable version for immediate use.
 
 ### 🐧 Linux (AppImage)
-La version Linux est distribuée au format **AppImage**, ce qui permet de lancer l'application sans installation complexe.
-1. Téléchargez le fichier `.AppImage` depuis les **Releases**.
-2. Faites un clic droit sur le fichier -> **Propriétés** -> Onglet **Permissions**.
-3. Cochez la case **"Autoriser l'exécution du fichier comme un programme"**.
-4. Double-cliquez sur le fichier pour lancer l'éditeur.
-   *Alternativement, via le terminal :*
+The Linux version is distributed in **AppImage** format, which allows running the application without complex installation.
+1. Download the `.AppImage` file from the **Releases**.
+2. Right-click the file -> **Properties** -> **Permissions** tab.
+3. Check the box **"Allow executing file as program"**.
+4. Double-click the file to launch the editor.
+   *Alternatively, via terminal:*
    ```bash
    chmod +x Discord-Activity-Editor-1.0.0.AppImage
    ./Discord-Activity-Editor-1.0.0.AppImage
    ```
 
-## ⚙️ Configuration (Guide Rapide)
+## ⚙️ Configuration (Quick Guide)
 
-Pour utiliser ce logiciel, vous devez créer une application sur le portail développeur de Discord :
+To use this software, you need to create an application on the Discord Developer Portal:
 
-1. Rendez-vous sur le [Discord Developer Portal](https://discord.com/developers/applications).
-2. Cliquez sur **"New Application"** et donnez-lui le nom que vous voulez voir apparaître sur votre profil.
-3. Dans l'onglet **"General Information"**, copiez l'**APPLICATION ID**.
-4. Collez cet ID dans le champ **Client ID** de cet éditeur.
-5. (Optionnel) Dans **"Rich Presence" -> "Art Assets"**, uploadez vos images et utilisez leurs noms comme "Keys" dans l'éditeur.
+1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+2. Click **"New Application"** and give it the name you want to see appear on your profile.
+3. In the **"General Information"** tab, copy the **APPLICATION ID**.
+4. Paste this ID into the **Client ID** field in this editor.
+5. (Optional) In **"Rich Presence" -> "Art Assets"**, upload your images and use their names as "Keys" in the editor.
 
-## 🛠️ Développement
+## 🛠️ Development
 
-Si vous souhaitez modifier le code :
+If you want to modify the code:
 
 ```bash
-# Installer les dépendances
+# Install dependencies
 npm install
 
-# Lancer en mode développement
+# Run in development mode
 npm run dev
 
-# Lancer Electron
+# Start Electron
 npm start
 
-# Construire pour Windows/Linux
+# Build for Windows/Linux
 npm run pack:win
 npm run pack:linux
 ```
 
 ---
-Développé avec ❤️ par **BlueDev**
+Developed with ❤️ by **BlueDev**

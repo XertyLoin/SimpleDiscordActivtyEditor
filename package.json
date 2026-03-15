@@ -35,13 +35,11 @@
       "target": [
         "nsis",
         "portable"
-      ],
-      "icon": "public/icon.png"
+      ]
     },
     "linux": {
       "target": "AppImage",
-      "category": "Development",
-      "icon": "public/icon.png"
+      "category": "Development"
     },
     "nsis": {
       "oneClick": false,
